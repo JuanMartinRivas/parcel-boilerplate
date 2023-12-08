@@ -1,3 +1,6 @@
-@import '_colors.scss';
-@import '_fonts.scss';
-@import '_global.scss';
+//Global
+@import 'colors';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+//Modules
