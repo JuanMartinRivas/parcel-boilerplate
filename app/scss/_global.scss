@@ -1,7 +1,5 @@
-h1 {
-  background-color: $darkBlue;
-  color: $creamWhite;
-  font-family: 'Open Sans', sans-serif;
+html {
+  font-size: 16px;
 }
 
 .container {
@@ -11,7 +9,10 @@ h1 {
 }
 
 .row {
+  display: flex;
+  flex-direction: column;
+
   @media(min-width: 900px) {
-    display: flex;
+    flex-direction: row;
   }
 }
