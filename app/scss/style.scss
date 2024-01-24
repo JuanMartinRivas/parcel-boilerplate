@@ -1,3 +1,6 @@
+//This is where all the style modules bundle.DO NOT DELETE
+//Also keep the 'colors' and 'fonts' modules on top
+
 //Global
 @import 'colors';
 @import 'fonts';
@@ -5,3 +8,4 @@
 @import 'global';
 //Modules
 @import 'main';
+//Import any new modules here.
