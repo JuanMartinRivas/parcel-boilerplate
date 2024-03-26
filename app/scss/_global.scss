@@ -1,6 +1,13 @@
-//This are some useful basic styles. I advice to keep them. Modify the properties and values if you need.
+//This are some useful basic styles. I advice to keep them(Except for the ones inside the body tag).
+//Modify the properties and values if you need.
 html {
   font-size: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: $dark-blue;
+  color: $cream-white;
 }
 
 .container {
@@ -11,9 +18,11 @@ html {
 
 .row {
   display: flex;
-  flex-direction: column;
 
-  @media(min-width: 900px) {
-    flex-direction: row;
+  &--desktop {
+    @media (min-width: 900px) {
+      display: flex;
+      align-items: center;
+    }
   }
 }
